@@ -1,0 +1,114 @@
+{
+  "name": "MonkeyFacesMeme",
+  "sources": [
+    {
+      "name": "MonkeyFacesMeme Feed",
+      "uuid": "2decac7e-c610-42d2-b2a4-d53a7e6e4731",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "MonkeyFacesMeme Output:Main HighGUI class:python.exe",
+        "method": 1,
+        "priority": 0,
+        "cursor": false,
+        "client_area": true,
+        "capture_audio": false
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "MonkeyFacesMeme",
+      "uuid": "7d513665-410a-44b2-962b-5bc501fd2899",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "MonkeyFacesMeme Feed",
+            "source_uuid": "2decac7e-c610-42d2-b2a4-d53a7e6e4731",
+            "visible": true,
+            "locked": true,
+            "rot": 0.0,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "align": 5,
+            "bounds_type": 3,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 720.0,
+              "y": 720.0
+            },
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {},
+            "hide_transition": {},
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {}
+    }
+  ],
+  "groups": [],
+  "scene_order": [
+    {
+      "name": "MonkeyFacesMeme"
+    }
+  ],
+  "current_scene": "MonkeyFacesMeme",
+  "current_program_scene": "MonkeyFacesMeme",
+  "current_transition": "Cut",
+  "transition_duration": 0,
+  "transitions": [],
+  "quick_transitions": [],
+  "saved_projectors": [],
+  "canvases": [],
+  "preview_locked": true,
+  "scaling_enabled": false,
+  "virtual-camera": {
+    "type2": 3
+  },
+  "modules": {},
+  "version": 2
+}
